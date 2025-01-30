@@ -17,7 +17,9 @@
     "migrate": "cd backend && npm run migrate",
     "serve-frontend": "cd frontend && npm run serve",
     "serve-backend": "cd backend && npm run serve",
-    "load-starter-content": "cd backend && npm run load-starter-content"
+    "load-starter-content": "cd backend && npm run load-starter-content",
+    "start": "docker-compose up -d",
+    "stop": "docker-compose down"
   },
   "repository": {
     "type": "git",
